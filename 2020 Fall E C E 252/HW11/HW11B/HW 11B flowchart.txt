@@ -1,0 +1,26 @@
+program look:
+
+
+limit any num detect in array into [-50, 50] and add all up
+
+
+saturate_value:
+    int a = scan.nextIntInArray();
+    Final int positive = 50;
+    Final int negative = -50;
+
+    if(a < -50){
+        a = negative;
+    }else if(a > 50){
+        a = positive;
+    }
+
+    return a;
+
+saturate_sum_array:
+    int a += saturate_value(return);
+    if(saturate_value(return) = 0){
+        return a;
+    }else{
+        return saturate_sum_array;(probably use BRp or similar instruction)
+    }

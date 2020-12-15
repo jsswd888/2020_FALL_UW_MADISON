@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	VALUE2            0204
+//	VALUE1            0203
+//	$               0200
+//	$               0201
+//	$               0202
+
